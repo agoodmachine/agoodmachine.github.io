@@ -1,0 +1,14 @@
+<aside class="sidebar">
+  {% for section in site.categories %}
+    {% assign section_key = section.first %}
+    {% assign section_title = section.first | replace: '-', ' ' %}
+    <section class="sidebar-section">
+      <span class="sidebar-title">{{ section_title }}</span>
+      <ul>
+        {% for item in site.categories[section_key] %}
+          <li class="sidebar-item"><a href="{{ item.url }}">{{ item.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </section>
+  {% endfor %}
+</aside>

@@ -1,0 +1,20 @@
+%clearfix:before,
+%clearfix:after {
+  content: " ";
+  display: table;
+}
+
+%clearfix:after {
+  clear: both;
+}
+
+%font-smoothing {
+  -moz-osx-font-smoothing: grayscale;
+  -moz-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+}
+
+%margin-eliminator {
+  & > *:first-child { margin-top: 0; }
+  & > *:last-child { margin-bottom: 0; }
+}

@@ -1,0 +1,44 @@
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@id": "#Organization",
+  "@type": "Organization",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "technical support",
+    "email": "support@agoodmachine.co",
+    "url": "http://agoodmachine.co/support"
+  },
+  "description": "Premium, fully-featured, SEO optimized themes for Shopify.",
+  "email": "support@agoodmachine.co",
+  "logo": "http://agoodmachine.co/assets/logo.png",
+  "name": "a good machine",
+  "url": "http://agoodmachine.co"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context":"http://schema.org",
+  "@id": "http://agoodmachine.co/themes/capital",
+  "@type": "ItemPage",
+  "copyrightYear": "2016",
+  "copyrightHolder": { "@id": "#Organization" },
+  "publisher": { "@id": "#Organization" },
+  "mainEntity": {
+    "@id": "#Product",
+    "@type": "Product",
+    "name": "Oslo",
+    "description": "Full featured, SEO optimized, premium Shopify theme for large inventory shops.",
+    "url": "http://agoodmachine.co/themes/capital",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "180.00",
+      "availability": "http://schema.org/InStock",
+      "itemOffered": { "@id": "#Product" },
+      "offeredBy": { "@id": "#Organization" }
+    }
+  }
+}
+</script>

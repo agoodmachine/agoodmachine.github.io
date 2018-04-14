@@ -1,0 +1,16 @@
+@mixin breakpoint($point) {
+  @if $point == xl {
+    @media (min-width: 1281px) { @content; }
+  }
+  @else if $point == s {
+    @media (max-width: 500px) { @content; }
+  }
+  @else {
+    @media (max-width: $point) { @content; }
+  }
+}
+
+@mixin font-size($sizeValue: 1.6) {
+  font-size: ($sizeValue * 10) + px;
+  font-size: $sizeValue + rem;
+}

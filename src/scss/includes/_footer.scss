@@ -1,0 +1,39 @@
+.main-footer {
+  max-width: $max-width;
+  width: 100%;
+  padding-right: 30px;
+  padding-left: 30px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.main-footer-inner {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-top: 1px solid $border-color;
+  font-size: 14px;
+
+  span {
+    opacity: 0.5;
+  }
+}
+
+.footer-nav {
+  opacity: 0.5;
+
+  a {
+    color: $body-color;
+
+    &::after {
+      display: inline-block;
+      margin-right: 3px;
+      margin-left: 5px;
+      content: "•";
+    }
+
+    &:last-child::after { display: none; }
+  }
+}

@@ -1,0 +1,77 @@
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(180deg); }
+}
+
+@keyframes open {
+  0% { transform: translate3d(0,0,0); }
+  50% { transform: translate3d(0,-20px,0); }
+  100% { transform: translate3d(0,-20px,0); }
+}
+
+.loading-overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: $blue;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.4s $easing;
+
+  &.visible {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .loading-overlay-logo-wrapper {
+    position: relative;
+    width: 112px;
+    height: 105px;
+  }
+
+  .loading-overlay-logo-front-wrapper {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 112px;
+    height: 98px;
+    animation: open 1.5s 1s $easing;
+  }
+
+  svg {
+    position: absolute;
+    display: block;
+    color: $white;
+  }
+
+  .logo-back {
+    top: 0;
+    left: 0;
+    width: 112px;
+    height: 105px;
+  }
+
+  .logo-front {
+    top: 0;
+    left: 0;
+    width: 112px;
+    height: 98px;
+    background-color: $blue;
+    border-radius: 8px;
+  }
+
+  .logo-spinner {
+    top: 18px;
+    left: 35px;
+    width: 63px;
+    height: 63px;
+    animation: spin 1s $easing;
+  }
+}

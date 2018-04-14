@@ -1,0 +1,23 @@
+{
+  "name": "lgm",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "devDependencies": {
+    "babelify": "^6.1.0",
+    "growl": "~1.7.0",
+    "grunt": "^0.4.5",
+    "grunt-browserify": "^3.8.0",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-compress": "~0.9.1",
+    "grunt-contrib-concat": "~0.4.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "^1.0.1",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-notify": "~0.4.2",
+    "grunt-sync": "^0.5.2",
+    "load-grunt-tasks": "~0.3.0"
+  }
+}
