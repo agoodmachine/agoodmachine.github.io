@@ -598,6 +598,14 @@ button {
   background-color: rgba($border-color, 0.3);
   text-align: center;
 }
+.home-content {
+  text-align: center;
+
+  .colorless-block {
+    padding: 60px 50px;
+    font-weight: 700;
+  }
+}
 
 h1, h2, h3, h4, h5, h6 {
   padding-top: 20px;

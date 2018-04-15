@@ -41,3 +41,5 @@ collections:
   capital:
     output: true
     permalink: /:collection/:path/
+    title: 'Capital'
+    url: '/capital/'

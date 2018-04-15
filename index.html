@@ -1,0 +1,13 @@
+---
+layout: home
+---
+
+<div class="home-content">
+  {% for collection in site.collections %}
+    {% if collection.url %}
+      <div class="colorless-block">
+        <a href="{{ collection.url }}">{{ collection.title }}</a>
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% include head.html %}
+</head>
+<body>
+  {% include icons.svg.html %}
+  {% include header.html %}
+
+  <main class="content-wrapper">
+
+    <div class="main-content">
+      <div class="main-content-inner">
+        {% if page.title != blank %}
+          <h1 class="main-content-title">{{ page.title }}</h1>
+        {% endif %}
+
+        {{ content }}
+      </div>
+
+      <div class="main-content-footer">
+        <p>Still need a hand?&nbsp;&nbsp;<a href="mailto:support@agoodmachine.co">Send us a message.</a></p>
+      </div>
+    </div>
+  </main>
+
+  {% include footer.html %}
+</body>
+</html>
