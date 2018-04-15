@@ -1,12 +1,23 @@
+{% assign categories_array = "general|settings|product|home-page|collection-page|other-pages" | split: "|" %}
+
 <aside class="sidebar">
-  {% for section in site.categories %}
-    {% assign section_key = section.first %}
-    {% assign section_title = section.first | replace: '-', ' ' %}
+  <section class="sidebar-section">
+    <span class="sidebar-title">Overview</span>
+    <ul>
+      <li class="sidebar-item"><a href="/{{ page.collection }}/">{{ page.collection | capitalize }}</a></li>
+    </ul>
+  </section>
+
+  {% for category in categories_array %}
+    {% assign category_key = category %}
+    {% assign category_title = category | replace: '-', ' ' %}
     <section class="sidebar-section">
-      <span class="sidebar-title">{{ section_title }}</span>
+      <span class="sidebar-title">{{ category_title }}</span>
       <ul>
-        {% for item in site.categories[section_key] %}
-          <li class="sidebar-item"><a href="{{ item.url }}">{{ item.title }}</a></li>
+        {% for item in site[page.collection] %}
+          {% if item.categories contains category_key %}
+            <li class="sidebar-item"><a href="{{ item.url }}">{{ item.title }}</a></li>
+          {% endif %}
         {% endfor %}
       </ul>
     </section>

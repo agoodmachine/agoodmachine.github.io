@@ -20,7 +20,7 @@ description: > # this means to ignore newlines until "baseurl:"
   that allow your brand and products to make
   the right first impression.
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "http://agoodmachine.co" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://documentation.agoodmachine.co" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 
@@ -37,14 +37,7 @@ exclude:
   - node_modules
   - src
   - temp
-groups: ["General settings", "Home page sections", "Theme sections"]
 collections:
-  themes:
-    output: true
-    permalink: /:collection/:path/
-  brave:
-    output: true
-    permalink: /themes/:collection/:path/
   capital:
     output: true
-    permalink: /themes/:collection/:path/
+    permalink: /:collection/:path/
