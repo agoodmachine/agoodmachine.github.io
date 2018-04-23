@@ -60,7 +60,7 @@ _This step assumes you have set up product collections before. If you don't know
   
 Congratulations! You've created a Department Page, which adds one more way to organize and categorize your products and collections. 
 
-Why not add those departments and collections as items in a mega-menu so your customers can easily navigate your inventory? [Click here to find out how.](http://docs.agoodmachine.co/capital/mega-menus/)
+Why not add those departments and collections as items in a mega-menu so your customers can easily navigate your inventory? [Click here to find out how.](/capital/mega-menus/)
 
 
 
