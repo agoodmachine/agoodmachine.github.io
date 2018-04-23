@@ -21,9 +21,9 @@ You will need to create additional pages, [product collections](https://help.sho
   2. Add navigation menus for each department that you created.  
      These menus will contain your department-specific product collections.
 
-To help you set up departments, this page will go through these steps in detail, using the example of the Mens department on Capital's [Berlin](https://capital-theme-berlin.myshopify.com) demo. Here is what the Mens department will look like when it's finished:
+To help you set up departments, this page will go through these steps in detail, using the example of the "Mens" department on Capital's [Berlin](https://capital-theme-berlin.myshopify.com) demo. Here is what the "Mens" department will look like when it's finished:
 
-![Mens department in the department navigation menu](../images/departments-mens-full-menu.png)
+!["Mens" department in the department navigation menu](../images/departments-mens-full-menu.png)
 
 ### Add a department page for each of your departments
 
@@ -45,15 +45,15 @@ For each of your departments, create a page using the following steps:
 
 It's now time to associate each department page with your product collections. You can do this by creating a navigation menu for _each_ department that contains each of the department's sections. This menu tells the Department page which collections to display, and in what order. 
 
-For example, the Mens department now has its own department page. Within the Mens department, we want sections for boots, shoes, accessories, and any other mens-related products that we sell.
+For example, the "Mens" department now has its own department page. Within the "Mens" department, we want sections for boots, shoes, accessories, and any other mens-related products that we sell.
 
-In order to populate the Mens department, Capital needs a navigation menu that matches the name of the department page.
+In order to populate the "Mens" department, Capital needs a navigation menu that matches the name of the department page.
 
 So, in this example, let's make a navigation menu called `Mens`.
 
 ![The Mens department's navigation menu](../images/department-section-navigation-menu.png)
 
-Now that we have a `Mens` department navigation menu, we want to fill it with logical sections – like Boots, Shoes, Accessories and Boot Care. Each of these items will be a product collection for the Mens department. In the navigation settings of the department menu you've just created, add links to the collections you'd like to include in this department, and in the order you'd like to include them. _Note that these have to be links to collections for them to display properly on the department page_
+Now that we have a `Mens` department navigation menu, we want to fill it with logical sections – like Boots, Shoes, Accessories and Boot Care. Each of these items will be a product collection for the "Mens" department. In the navigation settings of the department menu you've just created, add links to the collections you'd like to include in this department, and in the order you'd like to include them. _Note that these have to be links to collections for them to display properly on the department page_
 
 _This step assumes you have set up product collections before. If you don't know what Shopify product collections are, see their [Building product collections](https://help.shopify.com/manual/products/collections) article._
 
