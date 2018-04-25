@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Departments
-categories: collection-page
+categories: other-pages
 ---
 
 Departments are Capital's headline feature. We made Capital specifically for shops with large inventories. Just like a traditional department store, Capital's department features makes it easy for customers to browse the types of products they are most interested in. For example, if you set up a Shoes department, then customers can more easily find inventory that are shows or related to shoes.
