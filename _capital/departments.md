@@ -16,9 +16,10 @@ You will need to create additional pages, [product collections](https://help.sho
 
 ## Here are the main configuration steps for setting up the department page:
 
-  1. Add a page for each of your departments.  
+ **1. Add a page for each of your departments.**  
      Use the `page.department` template when you add each department page.
-  2. Add navigation menus for each department that you created.  
+     
+ **2. Add navigation menus for each department that you created.** 
      These menus will contain your department-specific product collections.
 
 To help you set up departments, this page will go through these steps in detail, using the example of the "Mens" department on Capital's [Berlin](https://capital-theme-berlin.myshopify.com) demo. Here is what the "Mens" department will look like when it's finished:
@@ -53,7 +54,8 @@ So, in this example, let's make a navigation menu called `Mens`.
 
 ![The Mens department's navigation menu](../images/department-section-navigation-menu.png)
 
-Now that we have a `Mens` department navigation menu, we want to fill it with logical sections – like Boots, Shoes, Accessories and Boot Care. Each of these items will be a product collection for the "Mens" department. In the navigation settings of the department menu you've just created, add links to the collections you'd like to include in this department, and in the order you'd like to include them. _Note that these have to be links to collections for them to display properly on the department page_
+Now that we have a `Mens` department navigation menu, we want to fill it with logical sections – like Boots, Shoes, Accessories and Boot Care. Each of these items will be a product collection for the "Mens" department. In the navigation settings of the department menu you've just created, add links to the collections you'd like to include in this department, and in the order you'd like to include them. 
+_*Note that these have to be links to collections for them to display properly on the department page_
 
 _This step assumes you have set up product collections before. If you don't know what Shopify product collections are, see their [Building product collections](https://help.shopify.com/manual/products/collections) article._
 
