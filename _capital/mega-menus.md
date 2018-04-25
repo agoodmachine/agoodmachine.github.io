@@ -10,7 +10,8 @@ _If you haven't set up your store's Departments yet, you might want to start wit
 
   1. Navigate to **Online Store ► Navigation** in your Shopify admin area.
   2. Use the **Add menu** button to add a new menu.
-  3. Give your new menu a descriptive title, like `Departments`. <p>Depending on your shop's navigation set up, you may end up changing this title later on.</p>
+  3. Give your new menu a descriptive title, like `Departments`. 
+  Depending on your shop's navigation setup, you may end up changing this title later on.
   4. Use the **Add menu item** button to add a new item. If you've set up your [department pages](/capital/departments/), this is where you should link to them. For example, if you've created a department page called "Mens", use "Mens" as the link title. 
   5. Add links to each collection you'd like to include in that department, and using the nested navigation function, drag each item underneath the name of the department link.
   6. For another level of navigation, you can include links to your collections [filtered by a product tag](http://docs.agoodmachine.co/capital/mega-menus/#filter-collection-by-tag), and drag that item into the parent collection.
