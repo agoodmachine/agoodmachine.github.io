@@ -38,23 +38,11 @@ You can configure up to _eight_ departments for each departments section on your
 Your browser does not support the video tag. Try opening this page with a browser like Google Chrome, Mozilla Firefox, or Safari.
 </video>
 
-For more detailed setup instructions, see the [Departments](../add-section#departments) documentation page.
-
-### Exceptions
-
-Before we get to the recommended image dimensions, there are two other possible layouts that are possible using the departments home page section. These two layouts occur when there is only _one_ department configured for the entire section.
-
-First, a single landscape item creates one full-width department that spans across the entire home page:
-
-![Single landscape department item](../images/image-gallery-section-size-single-item.png)
-
-Second, a single portrait item creates one full-width, double-height department. It is technically more square than it is a portrait image:
-
-![Single portrait department item](../images/image-gallery-section-size-single-item-portrait.png)
+For more detailed setup instructions, see the [Image Gallery](../add-homepage-sections#image-gallery) documentation page.
 
 ### Dimensions
 
-Now that you understand the different image layouts that are available with Capital's departments home page section, here are our recommended image dimensions:
+Here are our recommended image dimensions for the Image Gallery :
 
 - Portrait item: **940px x 1268px**
 - Landscape item: **940px x 614px**
