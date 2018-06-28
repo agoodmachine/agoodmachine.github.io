@@ -45,7 +45,7 @@ Here's what the dropdown menu looks like on a collection page:
 
 You can enable many different types of collection filters. To make the filters work effectively, you need to use your product tags, product types, and product vendor fields strategically. See the sections below for more information.
 
-&ast; *Note: the following is for Capital 3.1.0 and older. For instructions on how to set up the new filters, [click here] (/collection#filter-4)*
+&ast; *Note: the following is for Capital 3.1.0 and older. For instructions on how to set up the new filters, [click here] (../collection#filter-4)*
 
 ![Collection filtering turned on](../images/collection-filtering.png)
 
