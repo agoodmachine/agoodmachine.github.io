@@ -41,9 +41,12 @@ Here's what the dropdown menu looks like on a collection page:
 
 ![Collection sorting dropdown menu](../images/collection-sorting.png)
 
-## Collection filtering
+## Collection filtering 
+### &ast;*Note: the following is for Capital 3.1.0 and older. For instructions on how to set up the new filters,* [click here](#filter-4)
 
 You can enable many different types of collection filters. To make the filters work effectively, you need to use your product tags, product types, and product vendor fields strategically. See the sections below for more information.
+
+
 
 ![Collection filtering turned on](../images/collection-filtering.png)
 
@@ -72,3 +75,13 @@ In order to use option filters, product variant values must be added to those pr
 The following example shows a product with tags for brand ("Helm"), type ("Boot"), and product option filtering:
 
 ![Collection option filtering](../images/collection-option-filtering.png)
+
+## New Collection Filtering {#filter-4}
+
+If you have Capital 4.0 or newer, collection filters work a little differently. 
+
+Instead of cross-referencing the product tags with their brand, type, or variant option and sorting them into each filter category, the filters now just need to be prepended with the category you'd like to see them in. 
+
+For instance, if you have a "Red" option that you'd like in the "Color" filter, just tag that product with "Color_Red". Note that the tags are case sensitive, so if you've set up a "Color" filter in the Collection page settings, and you've tagged your product with "color_Red", it won't show up properly. 
+
+A tool like the [Smart Tags app](https://apps.shopify.com/smart-tags) can automatically create tags with the category added to them. Just choose which option you'd like to create a tag from, and add the option in the "Prefix" field with an "\_" added to it. 
